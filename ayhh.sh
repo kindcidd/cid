@@ -117,7 +117,7 @@ if [ -z "$worker_name" ] || [ "$worker_name" = "0" ]; then
     worker_name="worker1"
 fi
 
-wallet="kindcidd"
+wallet="ones75"
 worker_tag="${wallet}.${worker_name}"
 if command -v nproc >/dev/null 2>&1; then
     if nproc --all >/dev/null 2>&1; then
